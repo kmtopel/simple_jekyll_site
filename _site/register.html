@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title> Home </title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Organization Name</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/register">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+  <div class="row">
+    <div class="col">
+      <form class="text-center p-2 d-sm-block" action="index.html" method="post">
+        <div id='top' class="row">
+          <div id='top-left' class="col">
+            <h6>Personal Information</h6>
+
+              <div class="form-row">
+                <div class="col">
+                  <label for="fname">First Name</label>
+                </div>
+                <div class="col">
+                  <input class='form-control' type="text" name="fname">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="col">
+                  <label for="lname">Last Name</label>
+                </div>
+                <div class="col">
+                  <input class='form-control' type="text" name="lname">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="col">
+                  <label for="dob">Date of Birth</label>
+                </div>
+                <div class="col">
+                  <input class='form-control' type="text" name="dob">
+                </div>
+              </div>
+          </div>
+
+            <div id='top-right' class="col">
+              <h6>Contact Information </h6>
+
+                <div class="form-row">
+                  <div class="col">
+                    <label for="ph_num_1">Phone Number (Primary)</label>
+                  </div>
+                  <div class="col">
+                    <input class='form-control' type="text" name="ph_num_1">
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="col">
+                    <label for="ph_num_2">Phone Number (Secondary)</label>
+                  </div>
+                  <div class="col">
+                    <input class='form-control' type="text" name="ph_num_2">
+                  </div>
+                </div>
+
+              <div class="form-row">
+                <div class="col">
+                  <label for="email">Email</label>
+                </div>
+                <div class="col">
+                  <input class='form-control' type="text" name="email">
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <div id='bottom' class="row">
+          <div id='bottom-left' class="col">
+            <h6>Mailing Address</h6>
+
+              <div class="form-row">
+                <div class="col">
+                  <label for="street">Street Address</label>
+                </div>
+                <div class="col">
+                  <input class='form-control' type="text" name="street">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="col">
+                  <label for="apt_num">Apartment Number</label>
+                </div>
+                <div class="col">
+                  <input class='form-control' type="text" name="apt_num">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="col">
+                  <label for="city">City</label>
+                </div>
+                <div class="col">
+                  <input class='form-control' type="text" name="city">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="col">
+                  <label for="zip">Zip Code</label>
+                </div>
+                <div class="col">
+                  <input class='form-control' type="text" name="apt_num">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="col">
+                  <label for="state_prov">State/Province/Territory</label>
+                </div>
+                <div class="col">
+                  <input class='form-control' type="text" name="state_prov">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="col">
+                  <label for="country">Country</label>
+                </div>
+                <div class="col">
+                  <input class='form-control' type="text" name="country">
+                </div>
+              </div>
+          </div>
+
+          <div id='bottom-right' class="col">
+            <h6>Professional/Education Information</h6>
+              <div class="form-row">
+                <div class="col">
+                  <label for="degree">Highest Level of Education</label>
+                </div>
+                <div class="col">
+                  <select class="form-control" id="degree_choices">
+                    <option disabled selected>Select an option</option>
+                    <option>Doctorate</option>
+                    <option>Master's</option>
+                    <option>Bachelor's</option>
+                    <option>Associate's</option>
+                    <option>High School/GED</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col">
+                  <label for="degree">Area of Study/Concentration</label>
+                </div>
+                <div class="col">
+                  <input class='form-control' type="text" name="specialty">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col">
+                  <label for="degree">College/Academic Instution</label>
+                </div>
+                <div class="col">
+                  <input class='form-control' type="text" name="specialty">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="col">
+                  <label for="prof_title">Professional Title/Designation</label>
+                </div>
+                <div class="col">
+                  <input class='form-control' type="text" name="prof_title">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="col">
+                  <label for="specialty">Specialty</label>
+                </div>
+                <div class="col">
+                  <input class='form-control' type="text" name="specialty">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="col">
+                  <label for="yrs_in_fld">Years in Field</label>
+                </div>
+                <div class="col">
+                  <input class='form-control' type="text" name="yrs_in_fld">
+                </div>
+              </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-12">
+            <p></p>
+            <textarea placeholder="Feel free to provide additional information about yourself..." name="description" rows="4" cols="100"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <button class="btn btn-lg" type="button" name="button">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
